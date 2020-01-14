@@ -2,7 +2,8 @@
     color: RED;
     text-align: center;
     font-family: fantasy;
-    font-size: 20px;
+    font-size: 30px;
+    font-style: oblique;
   }
   li{
     color: rgb(48, 46, 46);
@@ -15,6 +16,7 @@
       padding: 0;
       overflow: hidden;
       background-color: black;
+      color: white;
   }
   #navli{
       float: left;
@@ -25,23 +27,41 @@
 
   li a {
     display: inline-block;
-    color: white;
     text-align: center;
     font-weight: bold;
     padding: 14px 16px;
     text-decoration: none;
+    color: white;
   }
   li a:hover{
     background-color: blue;
 }
 #imgindex{
     float: left;
-    align-items: center;
     cursor: pointer;
     max-width: 100%;
     height:auto;
+    width:auto;
 }
 #parrep{
     font-family: fantasy;
     font-size: 12px;
+}
+#ingredients{
+    font-weight: bolder;
+    color:red;
+    font-size: 14px;
+}
+#directions{
+    font-weight: bolder;
+    color:red;
+    font-size: 14px;
+}
+#h2marg{
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(83, 80, 80);
+    color:#79b90a;
 }
