@@ -1,0 +1,47 @@
+#lHeader {
+    color: RED;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+  }
+  li{
+    color: rgb(48, 46, 46);
+    font-family: fantasy;
+    font-size: 12px; 
+  }
+  #Nav{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+  }
+  #navli{
+      float: left;
+}
+  .active{
+      background-color: red;
+  }
+
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+    background-color: blue;
+}
+#imgindex{
+    float: left;
+    align-items: center;
+    cursor: pointer;
+    max-width: 100%;
+    height:auto;
+}
+#parrep{
+    font-family: fantasy;
+    font-size: 12px;
+}
