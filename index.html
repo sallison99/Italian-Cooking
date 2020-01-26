@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Italian Cooking</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+    <nav>
+        <ul id=Nav>
+           <li id=navli><a href="index.html" class="active">Home</a></li>
+           <li id=navli><a href="recipes.html">Recipes</a></li>
+           <li id=navli><a href="http://www.foodnetwork.com">Food Network</a></li>
+        </ul>
+    </nav>
+        <div id=imgindex>
+        <img src="Images/mozzarella-1575066__340.webp" alt="" >
+        <img src="Images/mozzarella-1575066__340.webp" alt="" >
+    </div>
+    <div >
+        <h3 id=h3marg>
+            Counter
+        </h3>
+        <p id=counterpar>
+        
+        </p>
+        <button id=incCounter >Increase Counter</button>
+        <button id=decCounter >Decrease Counter</button>
+    </div>
+    
+    <script>
+        var ctr = 0
+        document.getElementById("incCounter").addEventListener("click",function() { 
+          ctr+=1;
+          document.getElementById("counterpar").innerHTML = ctr;
+        });
+        
+        document.getElementById("decCounter").addEventListener("click",function() { 
+           if ( ctr!=0)
+           {
+               ctr-=1;
+           }
+          document.getElementById("counterpar").innerHTML = ctr;
+        });
+        </script>
+
+    </body>
+</html>
