@@ -16,5 +16,32 @@
         <img src="Images/mozzarella-1575066__340.webp" alt="" >
         <img src="Images/mozzarella-1575066__340.webp" alt="" >
     </div>
+    <div >
+        <h3 id=h3marg>
+            Counter
+        </h3>
+        <p id=counterpar>
+        
+        </p>
+        <button id=incCounter >Increase Counter</button>
+        <button id=decCounter >Decrease Counter</button>
+    </div>
+    
+    <script>
+        var ctr = 0
+        document.getElementById("incCounter").addEventListener("click",function() { 
+          ctr+=1;
+          document.getElementById("counterpar").innerHTML = ctr;
+        });
+        
+        document.getElementById("decCounter").addEventListener("click",function() { 
+           if ( ctr!=0)
+           {
+               ctr-=1;
+           }
+          document.getElementById("counterpar").innerHTML = ctr;
+        });
+        </script>
+
     </body>
 </html>

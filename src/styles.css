@@ -65,3 +65,42 @@
     background-color: rgb(83, 80, 80);
     color:#79b90a;
 }
+#h3marg{
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 15;
+    overflow: hidden;
+    background-color: rgb(83, 80, 80);
+    color:#79b90a;
+    font-size: 25px;
+    text-align: center
+}
+    #incCounter
+    {
+        height: 150px;
+        font-size: 15px;
+        border-color: red;
+        background-color: green;
+        font-weight: bold;
+        text-align: center;
+        width: auto;
+    }
+     #decCounter
+    {
+        height: 150px;
+        font-size: 15px;
+        border-color: green;
+        background-color: red;
+        font-weight: bold;
+        text-align: center;
+        width: auto;
+    }
+    #counterpar
+    {
+ 
+        font-size: 26px;
+        color:red;
+        margin-left: 15px;
+        text-align: center;
+    }
+
