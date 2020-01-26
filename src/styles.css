@@ -85,6 +85,14 @@
         text-align: center;
         width: auto;
     }
+
+    #incCounter:hover
+    {
+
+        background-color: goldenrod;
+
+    }
+
      #decCounter
     {
         height: 150px;
@@ -95,6 +103,14 @@
         text-align: center;
         width: auto;
     }
+
+    #decCounter:hover
+    {
+
+        background-color: goldenrod;
+
+    }
+
     #counterpar
     {
  
